@@ -1,0 +1,98 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(./img/back.png);
+}
+.the-father{
+    /* background-color: red; */ 
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.main-sec{
+    background-color: white;
+    height: 100%;
+    width: 800px;
+
+}
+.the-last {
+    /* background-color: blue; */
+    height: 100px;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.ico2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.ico3 {
+    width: 80px;
+}
+.nav-bar{
+    background-color: #B8CC23;
+    height: 123px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header {
+    display:flex;    
+}
+nav li {
+    display: inline-block;
+    padding: 0px 10PX;
+    font-size: 20px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover {
+    transform: scale(1.5);
+    transition: 2s;
+
+}
+.ico {
+    color: #B8CC23;
+    margin: 20px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.img1 {
+    float: left;
+    height: 100px;
+    width: 250px;
+    margin: 20px 20px;
+
+}
+.p1 {
+    margin: 50px 20px 20px 0px;
+}
+.p2 {
+    margin: 20px 20px;
+}
+.p4 {
+    text-align: center;
+}
+.but {
+    margin: 80px;
+    background-color: #B8CC23;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 80px;
+    margin: 40px 0px 20px 680px;
+}
+.p3 {
+    padding: 4px 0px 0px 35px;
+}
